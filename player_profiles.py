@@ -5,7 +5,7 @@ from collections import deque
 import math
 from config import RECENT_RTP_WINDOW, MEMORY_WINDOW
 
-
+# 初始化玩家信息(给玩家打上各个类型的标签、并决定投注额的等级)
 class Player:
     AMOUNT_SCALE_MAP = {'超R': 5_000_000, '大R': 500_000, '中R': 100_000, '小R': 10_000}
     AREA_RANGE_MAP = {'海投': (6, 8), '保守': (3, 5), '谨慎': (1, 2)}
@@ -53,7 +53,7 @@ class Player:
             val = min(max(val, 0), 30)
             return val // 5 * 5
 
-
+# 主要用于供其他模块调用此类的各种方法以配合计算（与初始化的类不同、本类主要负责过程）
 class PlayerStats:
     def __init__(self):
         self.total_bet: float = 0.0
@@ -109,7 +109,6 @@ class PlayerStats:
 
 
 # ✅ 初始化玩家列表
-
 def initialize_players(num_players=10, super_r_count=1) -> Dict[str, Player]:
     players = {}
     for i in range(1, super_r_count + 1):

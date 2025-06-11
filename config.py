@@ -26,11 +26,7 @@ WINNING_STRUCTURES = [
     {"areas": [5, 6, 7, 8], "base_weight": 10},
 ]
 
-# 游戏阶段时长（秒）
-BETTING_DURATION = 3   # 下注阶段时长
-WAITING_DURATION = 1    # 等待开奖阶段时长
-ANIMATION_DURATION = 1  # 开奖动画时长
-ROUND_TOTAL_DURATION = BETTING_DURATION + WAITING_DURATION + ANIMATION_DURATION # 一局总时长
+
 
 # 策略相关控制参数
 STD_THRESHOLD = 0.10   # 基础标准差
@@ -44,7 +40,6 @@ MEMORY_WINDOW = 10  # N 局窗口长度
 MEMORY_DECAY_ALPHA = 0.3 # 衰减函数参数，控制遗忘速度
 # 最近计算RTP的局数
 RECENT_RTP_WINDOW = 30  # 默认使用最近100局计算 RTP
-MAX_PAYOUT_RATE = 50  # 没有结构落入置信区间时的最大赔率倍率
 
 # ✅ 控制结构筛选策略各阶段的启用状态
 ENABLE_STD_FILTER = True             # 第一阶段：RTP标准差是否启用
@@ -58,8 +53,11 @@ MAX_STRUCTURE_SIM_THREADS = os.cpu_count() // 2
 RTP_STD_EXPAND_RATIO = 110  # 表示110%
 MEMORY_STD_EXPAND_RATIO = 110  # 表示110%
 
-# ✅ 统一日志导出目录定义
+
+
 BASE_OUTPUT_DIR = "simulation_output"
-EXPORT_DIR = os.path.join(BASE_OUTPUT_DIR, "运营导出")
-DEBUG_DIR = os.path.join(BASE_OUTPUT_DIR, "研发调试")
-MISC_DIR = os.path.join(BASE_OUTPUT_DIR, "其他杂项")
+
+JSON_DIR = os.path.join(BASE_OUTPUT_DIR, "json")         # ✅ 主日志输出
+EXCEL_DIR = os.path.join(BASE_OUTPUT_DIR, "excel")       # ✅ 表格导出
+DEBUG_DIR = os.path.join(BASE_OUTPUT_DIR, "debug")       # ✅ 精算调试
+SNAPSHOT_DIR = os.path.join(BASE_OUTPUT_DIR, "snapshot_dashboard")  # ✅ 仪表盘展示输出

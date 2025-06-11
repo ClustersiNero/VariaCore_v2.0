@@ -1,14 +1,13 @@
 import os
 import pandas as pd
 import math
-from collections import deque
+from collections import deque, defaultdict
 from db_logger import round_log, player_log, rtp_std_log, attitude_std_log
-from config import EXPORT_DIR, DEBUG_DIR, RECENT_RTP_WINDOW
+from config import EXCEL_DIR, DEBUG_DIR, RECENT_RTP_WINDOW
 
-BASE_OUTPUT_DIR = "simulation_output"
-DEBUG_OUTPUT_DIR = "debug_inspection"
 
-# ✅ 构建 DataFrame：玩家汇总（全量）
+
+# 平台结构模拟明细
 def build_structure_results_df_from_log():
     if not round_log:
         return pd.DataFrame([])
@@ -50,7 +49,7 @@ def build_structure_results_df_from_log():
         "是否选中", "第一轮", "第二轮", "第三轮", "本轮中奖结构"
     ]]
     
-# ✅ 玩家汇总表（全量）
+# 玩家下注记录明细
 def build_player_summary_df_from_log():
     if not player_log:
         return pd.DataFrame([])
@@ -98,7 +97,7 @@ def build_player_summary_df_from_log():
 
     return pd.DataFrame(rows)[columns_order]
 
-# ✅ 平台上下文表（全量）
+# 平台指标走势：水池、期望RTP
 def build_platform_context_df_from_log():
     if not round_log:
         return pd.DataFrame([])
@@ -122,7 +121,7 @@ def build_platform_context_df_from_log():
         "当前奖池", "置信区间下限", "置信区间上限", "本轮中奖结构"
     ]]
 
-# ✅ 玩家指标（全量）
+# 玩家指标走势：RTP、态势、净输赢、累计净输赢
 def build_player_metrics_log_from_log():
     data_by_round = {}
     player_profit_window = {}  # ⬅️ 维护每位玩家的窗口内净盈亏（最多 N 局）
@@ -160,7 +159,7 @@ def build_player_metrics_log_from_log():
 
     return pd.DataFrame(rows)
         
-# ✅ RTP标准差明细（从 rtp_std_log 构建）
+# RTP_STD明细、用于debug
 def build_rtp_std_debug_df():
     rows = []
     last_round_id = None
@@ -194,7 +193,7 @@ def build_rtp_std_debug_df():
         rows.append({"轮次": last_round_id, "结构区域": "----------", "玩家ID": f"✅ 第 {last_round_id} 局结束"})
     return pd.DataFrame(rows)
 
-# ✅ 调试日志：态势标准差明细表
+# 态势_STD明细、用于debug
 def build_attitude_std_debug_df():
     rows = []
     last_round_id = None
@@ -233,11 +232,7 @@ def build_attitude_std_debug_df():
     return pd.DataFrame(rows)[:25000]
 
 
-
-# 玩家行为汇总分析
-from collections import defaultdict, deque
-from config import RECENT_RTP_WINDOW
-
+# 玩家信息综合汇总
 def build_player_lifetime_summary_df():
     if not player_log:
         return pd.DataFrame([])
@@ -317,10 +312,9 @@ def build_player_lifetime_summary_df():
     ]]
 
 
-
 # ✅ 写入（首次清空）
 def export_all_logs():
-    os.makedirs(EXPORT_DIR, exist_ok=True)
+    os.makedirs(EXCEL_DIR, exist_ok=True)
 
     if not round_log:
         print("⚠️ 无有效对局日志，跳过导出")
@@ -334,11 +328,11 @@ def export_all_logs():
     df4 = build_player_metrics_log_from_log()
     df5 = build_player_lifetime_summary_df()
 
-    df1.to_excel(os.path.join(EXPORT_DIR, "player_summary_log.xlsx"), index=False, engine='xlsxwriter')
-    df2.to_excel(os.path.join(EXPORT_DIR, "structure_result_log.xlsx"), index=False, engine='xlsxwriter')
-    df3.to_excel(os.path.join(EXPORT_DIR, "platform_context_log.xlsx"), index=False, engine='xlsxwriter')
-    df4.to_excel(os.path.join(EXPORT_DIR, "player_metrics_log.xlsx"), index=False, engine='xlsxwriter')
-    df5.to_excel(os.path.join(EXPORT_DIR, "player_lifetime_summary.xlsx"), index=False, engine='xlsxwriter')
+    df1.to_excel(os.path.join(EXCEL_DIR, "player_summary_log.xlsx"), index=False, engine='xlsxwriter')
+    df2.to_excel(os.path.join(EXCEL_DIR, "structure_result_log.xlsx"), index=False, engine='xlsxwriter')
+    df3.to_excel(os.path.join(EXCEL_DIR, "platform_context_log.xlsx"), index=False, engine='xlsxwriter')
+    df4.to_excel(os.path.join(EXCEL_DIR, "player_metrics_log.xlsx"), index=False, engine='xlsxwriter')
+    df5.to_excel(os.path.join(EXCEL_DIR, "player_lifetime_summary.xlsx"), index=False, engine='xlsxwriter')
 
 
 # ✅ 写入 Excel 文件：用于所有精算级 debug 日志导出

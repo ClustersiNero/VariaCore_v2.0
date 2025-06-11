@@ -19,6 +19,8 @@ from db_logger import log_rtp_std_details, log_attitude_std_details
 import math
 from concurrent.futures import ThreadPoolExecutor
 
+
+# 计算各个结构在模拟下的基础利润指标：投注、赔付、净盈亏
 def calculate_structure_estimates(current_bets: Dict[str, Dict[int, float]], game_areas: List[int]) -> Dict[str, float]:
     related_bet = 0.0
     expected_award = 0.0
@@ -37,6 +39,8 @@ def calculate_structure_estimates(current_bets: Dict[str, Dict[int, float]], gam
         "profit_estimate": profit_estimate
     }
 
+
+# 对单个结构、计算模拟下的RTP_STD、同时输出日志供细致检查
 def compute_rtp_std_for_structure(
     structure: Dict,
     current_players: Dict[str, PlayerStats],
@@ -112,6 +116,8 @@ def compute_rtp_std_for_structure(
 
     structure["simulated_players"] = simulated_players
 
+
+# 对单个结构、计算模拟下的态势_STD、同时输出日志供细致检查
 def compute_attitude_std_for_structure(struct: Dict, structure_id: int, attitude_map_template: Dict[str, float], recharge_map: dict[str, float], round_id: int) -> float:
     simulated_players = struct.get("simulated_players", {})
     values = []
@@ -164,7 +170,7 @@ def compute_attitude_std_for_structure(struct: Dict, structure_id: int, attitude
     return std
 
 
-# ✅ 并行计算所有结构的 rtp_std（恢复动态置信区间）
+# 对所有结构、调用上面的方法并行计算 rtp_std
 def compute_rtp_std_for_all_structure(
     current_players: Dict[str, PlayerStats],
     current_bets: Dict[str, Dict[int, float]],
@@ -190,7 +196,7 @@ def compute_rtp_std_for_all_structure(
     return WINNING_STRUCTURES
 
 
-# ✅ 态势标准差（所有结构）
+# 对所有结构、调用上面的方法并行计算 态势_std
 def compute_attitude_std_for_all_structures(structure_cache: list[Dict], attitude_map_template: Dict[str, float], recharge_map: dict[str, float], round_id: int):
     results = []
     with ThreadPoolExecutor(max_workers=MAX_STRUCTURE_SIM_THREADS) as executor:
@@ -229,7 +235,6 @@ class SimulationContext:
         return self.current_bets
 
 
-
 # 判断结构是否落入置信区间
 def mark_confidence_range_flags(structures: List[dict], std_bounds: tuple[float, float]):
     low, high = std_bounds
@@ -237,8 +242,8 @@ def mark_confidence_range_flags(structures: List[dict], std_bounds: tuple[float,
         std = s.get("rtp_std", float("inf"))
         s["within_confidence"] = bool(low <= std <= high)
 
-# ✅ 主流程统一接口
 
+# ✅ 主流程统一接口
 def simulate_structure_metrics(context: SimulationContext, confidence_level, expected_rtp, current_round_id):
     current_players = context.get_players()
     current_bets = context.get_bets()

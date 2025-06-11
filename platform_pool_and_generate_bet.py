@@ -4,13 +4,13 @@
 平台水池管理模块：
 - 记录平台盈亏累积值（抽水后下注金额流入，中奖金额流出）
 - 根据水位线调整目标 RTP（实现动态放水 / 回收策略）
-- ✅ 新增：生成下注逻辑（原 betting_input 模块迁移）
 """
 
 from config import TARGET_RTP, PAYOUT_RATES
 from typing import List, Tuple
 import random
 
+# 平台公共水池、投注在抽水后流入、开奖从水池流出
 class PlatformPool:
     def __init__(self, tax_rate: float = 1.0 - TARGET_RTP):
         rtp_thresholds: List[Tuple[int, float, float]] = [
@@ -21,12 +21,12 @@ class PlatformPool:
             # (80,    2_000_000, 4_000_000),
             # (60,    0,         2_000_000),
             # (0,     -float("inf"), 0),
-            (120,   10_000_000, float("inf")),
-            (110,   8_000_000, 10_000_000),
-            (105,   6_000_000, 8_000_000),
-            (97,    4_000_000, 6_000_000),
-            (90,    2_000_000, 4_000_000),
-            (80,    0,         2_000_000),
+            (105,   25_000_000, float("inf")),
+            (100,   20_000_000, 25_000_000),
+            (97,    15_000_000, 20_000_000),
+            (90,    10_000_000, 15_000_000),
+            (80,    5_000_000, 10_000_000),
+            (70,    0,          5_000_000),
             (50,     -float("inf"), 0),
         ]
         self.rtp_thresholds = rtp_thresholds
@@ -60,7 +60,7 @@ class PlatformPool:
         return self.history[-n:]
 
 
-# ✅ 生成下注逻辑：作为玩家行为模拟的一部分由平台控制
+# 玩家下注模拟：基于频率、区域偏好与金额分布动态生成下注结构
 def generate_player_bets(players: dict, round_index: int) -> dict:
     bets = {}
 

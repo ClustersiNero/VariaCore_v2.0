@@ -7,11 +7,12 @@ from platform_pool_and_generate_bet import PlatformPool
 from config import TARGET_RTP, CONFIDENCE_LEVEL
 from export_engine import export_all_logs, export_debug_inspection_logs
 from db_logger import round_log, player_log, rtp_std_log, attitude_std_log, confidence_log
-from config import DEBUG_DIR, MISC_DIR
+from config import JSON_DIR
 
-ROUNDS = 2000
-PLAYERS = 20
+ROUNDS = 20
+PLAYERS = 2
 
+# 脚本模拟主流程：批量执行 controller，连续模拟指定轮数
 def run_simulation(rounds, num_players):
     print(f"\n🚀 快照模拟启动，共 {rounds} 局...")
     start_time = time.time()
@@ -23,7 +24,6 @@ def run_simulation(rounds, num_players):
         "platform_pool": PlatformPool(),
         "rtp_history": {},
         "round_id": 1,
-        "target_rtp": TARGET_RTP,
         "confidence_level": CONFIDENCE_LEVEL
     }
     state["stat_players"] = {pid: PlayerStats() for pid in state["sim_players"]}
@@ -42,20 +42,20 @@ def run_simulation(rounds, num_players):
             export_all_logs()  # ✅ 主日志导出（导出至 EXPORT_DIR）
             export_debug_inspection_logs()  # ✅ 精算调试日志导出（导出至 DEBUG_DIR）
 
-            os.makedirs(MISC_DIR, exist_ok=True)
-            with open(os.path.join(MISC_DIR, "round_log.json"), "w", encoding="utf-8") as f:
+            os.makedirs(JSON_DIR, exist_ok=True)
+            with open(os.path.join(JSON_DIR, "round_log.json"), "w", encoding="utf-8") as f:
                 json.dump(round_log, f, ensure_ascii=False, indent=2)
 
-            with open(os.path.join(MISC_DIR, "player_log.json"), "w", encoding="utf-8") as f:
+            with open(os.path.join(JSON_DIR, "player_log.json"), "w", encoding="utf-8") as f:
                 json.dump(player_log, f, ensure_ascii=False, indent=2)
 
-            with open(os.path.join(DEBUG_DIR, "rtp_std_log.json"), "w", encoding="utf-8") as f:
+            with open(os.path.join(JSON_DIR, "rtp_std_log.json"), "w", encoding="utf-8") as f:
                 json.dump(rtp_std_log, f, ensure_ascii=False, indent=2)
 
-            with open(os.path.join(DEBUG_DIR, "attitude_std_log.json"), "w", encoding="utf-8") as f:
+            with open(os.path.join(JSON_DIR, "attitude_std_log.json"), "w", encoding="utf-8") as f:
                 json.dump(attitude_std_log, f, ensure_ascii=False, indent=2)
                 
-            with open(os.path.join(DEBUG_DIR, "confidence_log.json"), "w", encoding="utf-8") as f:
+            with open(os.path.join(JSON_DIR, "confidence_log.json"), "w", encoding="utf-8") as f:
                 json.dump(confidence_log, f, ensure_ascii=False, indent=2)
 
 

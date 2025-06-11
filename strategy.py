@@ -4,7 +4,7 @@ from typing import List, Dict
 import random
 from config import RTP_STD_EXPAND_RATIO, MEMORY_STD_EXPAND_RATIO, ENABLE_STD_FILTER, ENABLE_MEMORY_FILTER
 
-
+# 策略筛选主逻辑：依次执行三阶段筛选并记录每阶段是否进入
 def select_structure(results: List[Dict]) -> Dict:
     # ✅ 初始化阶段标记，确保每一轮的标记都从 False 开始
     for r in results:

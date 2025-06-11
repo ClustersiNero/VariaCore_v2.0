@@ -1,5 +1,5 @@
 from enum import Enum, auto
-from config import PAYOUT_RATES, TARGET_RTP, CONFIDENCE_LEVEL
+from config import PAYOUT_RATES, CONFIDENCE_LEVEL
 from player_profiles import Player, PlayerStats
 from platform_pool_and_generate_bet import generate_player_bets
 from score_engine import SimulationContext, simulate_structure_metrics, compute_attitude_std_for_all_structures
@@ -9,15 +9,15 @@ from metrics_engine import (
     compute_rtp, compute_memory_profit, compute_memory_avg_bet, compute_payout, compute_current_rtp, aggregate_area_totals, compute_attitude
 )
 
-
+# 单局游戏流程控制在此实现
 class GameRoundController:
+    
     def __init__(self, state):
         self.state = state
         self.round_id = 0
         self.sim_players = state["sim_players"]
         self.stat_players = state["stat_players"]
         self.pool = state["platform_pool"]
-        self.target_rtp = state.get("target_rtp", TARGET_RTP)
         self.confidence_level = state.get("confidence_level", CONFIDENCE_LEVEL)
 
     def initialize_round(self):

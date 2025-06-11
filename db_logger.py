@@ -46,8 +46,7 @@ def log_confidence_bounds_details(
         "player_contributions": enriched_contributions
     })
 
-
-# ✅ 主日志：平台汇总 & 玩家明细（仅由 controller 写入）
+# 主要日志之一：平台视角
 def log_round_summary(
     round_id: int,
     player_bets: dict,
@@ -83,7 +82,7 @@ def log_round_summary(
     }
     round_log.append(entry)
 
-
+# 主要日志之一：玩家视角
 def log_player_detail(
     round_id: int,
     player_id: str,
@@ -118,8 +117,7 @@ def log_player_detail(
     player_log.append(entry)
 
 
-# ✅ 精算日志：结构RTP分析
-
+# ✅ 精算日志：结构RTP_std分析
 def log_rtp_std_details(
     round_id: int,
     structure_id: int,
@@ -146,6 +144,7 @@ def log_rtp_std_details(
         ]
     })
 
+# ✅ 精算日志：结构态势_std分析
 def log_attitude_std_details(
     round_id: int,
     structure_id: int,
@@ -194,6 +193,7 @@ REQUIRED_ATTITUDE_STD_LOG_FIELDS = [
     "round_id", "structure_id", "game_areas", "attitude_std_structure_after_simulation", "attitude_effects_per_player_simulated"
 ]
 
+# 字段工具
 def sanitize_logs():
     for entry in confidence_log:
         for k in list(entry):

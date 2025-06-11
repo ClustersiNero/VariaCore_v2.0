@@ -6,9 +6,7 @@ import math
 from db_logger import log_confidence_bounds_details
 
 
-# ✅ 动态置信区间：根据置信水平和样本数量调整标准差
-
-
+# ✅ 动态置信区间：根据置信水平和样本数量调整标准差的置信区间
 def compute_dynamic_std_confidence_interval(
     base_std: float,
     confidence: float,
@@ -16,12 +14,9 @@ def compute_dynamic_std_confidence_interval(
     round_id: int = -1,
     player_contributions: list = None
 ) -> tuple[float, float]:
-    if sample_size <= 1:
-        std_bounds = (0.0, base_std)
-    else:
-        z = norm.ppf(1 - (1 - confidence) / 2)
-        margin = z * base_std / (sample_size ** 0.5)
-        std_bounds = (0.0, base_std + margin)
+    z = norm.ppf(1 - (1 - confidence) / 2)
+    margin = z * base_std / (sample_size ** 0.5)
+    std_bounds = (0.0, base_std + margin)
 
     # ✅ 写入置信区间精算日志（可选 round_id）
     if round_id >= 0 and player_contributions is not None:
@@ -37,9 +32,7 @@ def compute_dynamic_std_confidence_interval(
     return std_bounds
 
 
-
 # ✅ 窗口期平均投注额（含当前局）
-
 def compute_memory_avg_bet(bet: float, past_bets: List[float], required_count: int = MEMORY_WINDOW) -> float:
     recent_bets = [b for b in past_bets if b > 0]
     if bet > 0:
@@ -48,7 +41,6 @@ def compute_memory_avg_bet(bet: float, past_bets: List[float], required_count: i
 
 
 # ✅ 记忆型盈亏（态势指标）
-
 def compute_memory_profit(bet: float, payout: float, past_bets: List[float]) -> float:
     avg_bet = compute_memory_avg_bet(bet, past_bets)
     if avg_bet <= 0:
@@ -57,14 +49,12 @@ def compute_memory_profit(bet: float, payout: float, past_bets: List[float]) -> 
 
 
 # ✅ RTP：最近 N 局的返奖率
-
 def compute_rtp(stat: PlayerStats) -> float:
     total = sum(stat.recent_bets)
     return sum(stat.recent_payouts) / total if total > 0 else 0.0
 
 
 # ✅ 态势值：记忆加权盈亏
-
 def compute_attitude(stat: PlayerStats) -> float:
     attitude = 0.0
     for i, m in enumerate(reversed(stat.memory_profits)):
@@ -74,20 +64,17 @@ def compute_attitude(stat: PlayerStats) -> float:
 
 
 # ✅ 当前局返奖金额（根据命中区域）
-
 def compute_payout(bet: Dict[int, float], winning_areas: List[int], payout_rates: Dict[int, float]) -> float:
     return sum(v * payout_rates[a] for a, v in bet.items() if a in winning_areas)
 
 
 # ✅ 当前局即时 RTP
-
 def compute_current_rtp(bet: Dict[int, float], payout: float) -> float:
     total = sum(bet.values())
     return payout / total if total > 0 else 0.0
 
 
 # ✅ 汇总所有区域下注额（用于结构模拟图）
-
 def aggregate_area_totals(bets: Dict[str, Dict[int, float]]) -> Dict[int, float]:
     totals = {}
     for player_bets in bets.values():
@@ -97,7 +84,6 @@ def aggregate_area_totals(bets: Dict[str, Dict[int, float]]) -> Dict[int, float]
 
 
 # ✅ RTP 标准差相关函数
-
 def compute_total_weight(players: List[PlayerStats]) -> float:
     return sum(p.total_bet for p in players)
 
