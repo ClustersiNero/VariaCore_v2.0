@@ -1,0 +1,402 @@
+[
+  {
+    "round_id": 1,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 1.0,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.2959963984540054,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 1.0,
+        "weighted_contribution": 891300.0
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 1.0,
+        "weighted_contribution": 19600.0
+      }
+    ]
+  },
+  {
+    "round_id": 2,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 1.761762639441012,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.2476639198953566,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 1.7559155287931474,
+        "weighted_contribution": 3635447.510813332
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 2.0828729281767955,
+        "weighted_contribution": 78524.30939226519
+      }
+    ]
+  },
+  {
+    "round_id": 3,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 2.871706862590155,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.21565862848643055,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 2.8642175400684313,
+        "weighted_contribution": 9111075.99495768
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 3.312883435582822,
+        "weighted_contribution": 178895.70552147238
+      }
+    ]
+  },
+  {
+    "round_id": 4,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 3.986257210513574,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1981669803401087,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 3.9871349422480984,
+        "weighted_contribution": 16928976.2512912
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 3.9347826086956523,
+        "weighted_contribution": 284878.26086956525
+      }
+    ]
+  },
+  {
+    "round_id": 5,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 5.695790120012634,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.182124190560344,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 5.705119680851064,
+        "weighted_contribution": 29371667.652925532
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 5.160919540229885,
+        "weighted_contribution": 463450.57471264363
+      }
+    ]
+  },
+  {
+    "round_id": 6,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 5.296592947556134,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.18516277259241676,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 5.2916805601867285,
+        "weighted_contribution": 33591059.02800933
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 5.581632653061225,
+        "weighted_contribution": 610630.612244898
+      }
+    ]
+  },
+  {
+    "round_id": 7,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 6.786708094515093,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1752347541300488,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 6.797698419947027,
+        "weighted_contribution": 50593909.799981736
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 6.160377358490566,
+        "weighted_contribution": 804545.2830188678
+      }
+    ]
+  },
+  {
+    "round_id": 8,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 9.128891757056337,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.16486927770038717,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 9.14934851636921,
+        "weighted_contribution": 76452871.13763276
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 7.983957219251337,
+        "weighted_contribution": 1192004.8128342247
+      }
+    ]
+  },
+  {
+    "round_id": 9,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 8.976380289922153,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1654180311537276,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 8.966536371436744,
+        "weighted_contribution": 84330274.57336257
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 9.531428571428572,
+        "weighted_contribution": 1589842.285714286
+      }
+    ]
+  },
+  {
+    "round_id": 10,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 10.440458541669377,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.16065803040260673,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 10.472252996273543,
+        "weighted_contribution": 108889439.42995267
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 8.68663594470046,
+        "weighted_contribution": 1637430.875576037
+      }
+    ]
+  },
+  {
+    "round_id": 11,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 13.45920153989527,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1534242510867968,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 13.53060978549048,
+        "weighted_contribution": 151917627.48855147
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 9.646788990825687,
+        "weighted_contribution": 2028719.7247706421
+      }
+    ]
+  },
+  {
+    "round_id": 12,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 14.396952670673642,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.15165505193799417,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 14.456016299137104,
+        "weighted_contribution": 174369914.20182166
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 11.308823529411764,
+        "weighted_contribution": 2608945.588235294
+      }
+    ]
+  },
+  {
+    "round_id": 13,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 13.332362172156138,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.15367777921368458,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 13.313291139240507,
+        "weighted_contribution": 173627949.05063292
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 14.335260115606937,
+        "weighted_contribution": 3555144.5086705205
+      }
+    ]
+  },
+  {
+    "round_id": 14,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 15.492402993396434,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.14979533956752014,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 15.56359575656058,
+        "weighted_contribution": 216912946.77833614
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 11.829694323144105,
+        "weighted_contribution": 3204664.1921397382
+      }
+    ]
+  },
+  {
+    "round_id": 15,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 13.453835903339431,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1534349033105019,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 13.416213808463251,
+        "weighted_contribution": 202044155.09131402
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 15.409574468085106,
+        "weighted_contribution": 4464153.723404255
+      }
+    ]
+  },
+  {
+    "round_id": 16,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 19.34079600977097,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.14456674530171804,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 19.421651376146787,
+        "weighted_contribution": 308361443.2293578
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 15.200980392156863,
+        "weighted_contribution": 4713824.019607843
+      }
+    ]
+  },
+  {
+    "round_id": 17,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 16.532376572308994,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.14820370794600315,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 16.57962908448631,
+        "weighted_contribution": 280134386.900206
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 14.139830508474576,
+        "weighted_contribution": 4718461.440677966
+      }
+    ]
+  },
+  {
+    "round_id": 18,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 21.846011708335485,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.14193358665520334,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 21.98137340121694,
+        "weighted_contribution": 389105479.39898175
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 15.139830508474576,
+        "weighted_contribution": 5409461.440677966
+      }
+    ]
+  },
+  {
+    "round_id": 19,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 15.981044822707977,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.1490281500099088,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 15.85407401191575,
+        "weighted_contribution": 299535776.52932787
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 22.395209580838323,
+        "weighted_contribution": 8375808.383233532
+      }
+    ]
+  },
+  {
+    "round_id": 20,
+    "base_std_input": 0.1,
+    "confidence_level_input": 0.95,
+    "sample_size_equivalent": 22.25939123173123,
+    "std_bounds_low": 0.0,
+    "std_bounds_high": 0.14154238723458448,
+    "player_contributions": [
+      {
+        "player_id": "player_1",
+        "equivalent_rounds": 22.312239142695997,
+        "weighted_contribution": 441331627.7946983
+      },
+      {
+        "player_id": "player_2",
+        "equivalent_rounds": 19.606965174129353,
+        "weighted_contribution": 7727104.975124378
+      }
+    ]
+  }
+]

@@ -1,0 +1,793 @@
+[
+  {
+    "round_id": 1,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "5": 209600,
+      "6": 135900,
+      "8": 47600,
+      "7": 79800,
+      "3": 418400
+    },
+    "total_bet_amount_player_real": 891300,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -891300,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -1.0,
+    "memory_profit_player_real": -1.0,
+    "memory_avg_bet_player_real": 891300.0,
+    "rtp_historical_player_real": 0.0,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 891300,
+    "past_bet_sum": 0
+  },
+  {
+    "round_id": 1,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "5": 6900,
+      "3": 12700
+    },
+    "total_bet_amount_player_real": 19600,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -19600,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -1.0,
+    "memory_profit_player_real": -1.0,
+    "memory_avg_bet_player_real": 19600.0,
+    "rtp_historical_player_real": 0.0,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 19600,
+    "past_bet_sum": 0
+  },
+  {
+    "round_id": 2,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "2": 734700,
+      "8": 82500,
+      "5": 361900
+    },
+    "total_bet_amount_player_real": 1179100,
+    "total_payout_amount_player_real": 3673500,
+    "net_profit_player_real": 2494400,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 1.5620591450668586,
+    "memory_profit_player_real": 2.3028773657485764,
+    "memory_avg_bet_player_real": 1035200.0,
+    "rtp_historical_player_real": 1.7742948222565689,
+    "rtp_current_round_player_real": 3.1155118310575864,
+    "recent_bet_sum": 2070400,
+    "past_bet_sum": 891300
+  },
+  {
+    "round_id": 2,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "2": 18100
+    },
+    "total_bet_amount_player_real": 18100,
+    "total_payout_amount_player_real": 90500,
+    "net_profit_player_real": 72400,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 3.1516548975978522,
+    "memory_profit_player_real": 3.89247311827957,
+    "memory_avg_bet_player_real": 18850.0,
+    "rtp_historical_player_real": 2.40053050397878,
+    "rtp_current_round_player_real": 5.0,
+    "recent_bet_sum": 37700,
+    "past_bet_sum": 19600
+  },
+  {
+    "round_id": 3,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "7": 144500,
+      "6": 239500,
+      "3": 726600
+    },
+    "total_bet_amount_player_real": 1110600,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -1110600,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 0.1220634665309881,
+    "memory_profit_player_real": -1.0351384099170473,
+    "memory_avg_bet_player_real": 1060333.3333333333,
+    "rtp_historical_player_real": 1.1548255265639735,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 3181000,
+    "past_bet_sum": 2070400
+  },
+  {
+    "round_id": 3,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 3400,
+      "4": 12900
+    },
+    "total_bet_amount_player_real": 16300,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -16300,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 1.4073496038822295,
+    "memory_profit_player_real": -0.9274537695590327,
+    "memory_avg_bet_player_real": 18000.0,
+    "rtp_historical_player_real": 1.6759259259259258,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 54000,
+    "past_bet_sum": 37700
+  },
+  {
+    "round_id": 4,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "7": 97500,
+      "8": 54100,
+      "5": 248400,
+      "6": 166200,
+      "3": 498700
+    },
+    "total_bet_amount_player_real": 1064900,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -1064900,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.912152808931368,
+    "memory_profit_player_real": -1.0025796490170973,
+    "memory_avg_bet_player_real": 1061475.0,
+    "rtp_historical_player_real": 0.8651875927365222,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 4245900,
+    "past_bet_sum": 3181000
+  },
+  {
+    "round_id": 4,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "5": 11400,
+      "6": 7000
+    },
+    "total_bet_amount_player_real": 18400,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -18400,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 0.02937437039431684,
+    "memory_profit_player_real": -1.013215859030837,
+    "memory_avg_bet_player_real": 18100.0,
+    "rtp_historical_player_real": 1.25,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 72400,
+    "past_bet_sum": 54000
+  },
+  {
+    "round_id": 5,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "2": 220700,
+      "3": 213600,
+      "1": 211600,
+      "7": 42100,
+      "4": 214400
+    },
+    "total_bet_amount_player_real": 902400,
+    "total_payout_amount_player_real": 1103500,
+    "net_profit_player_real": 201100,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.4763244771768476,
+    "memory_profit_player_real": 0.19941494372551935,
+    "memory_avg_bet_player_real": 1029660.0,
+    "rtp_historical_player_real": 0.9278791057242196,
+    "rtp_current_round_player_real": 1.2228501773049645,
+    "recent_bet_sum": 5148300,
+    "past_bet_sum": 4245900
+  },
+  {
+    "round_id": 5,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "4": 11700,
+      "5": 5700
+    },
+    "total_bet_amount_player_real": 17400,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -17400,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -0.952119528205762,
+    "memory_profit_player_real": -0.9738805970149254,
+    "memory_avg_bet_player_real": 17960.0,
+    "rtp_historical_player_real": 1.0077951002227172,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 89800,
+    "past_bet_sum": 72400
+  },
+  {
+    "round_id": 6,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "3": 450300,
+      "7": 85200,
+      "5": 216500,
+      "2": 447600
+    },
+    "total_bet_amount_player_real": 1199600,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -1199600,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -1.4654501762601004,
+    "memory_profit_player_real": -1.1125803246107984,
+    "memory_avg_bet_player_real": 1057983.3333333333,
+    "rtp_historical_player_real": 0.7525323335276233,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 6347900,
+    "past_bet_sum": 5148300
+  },
+  {
+    "round_id": 6,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 19600
+    },
+    "total_bet_amount_player_real": 19600,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -19600,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -1.7689133862345778,
+    "memory_profit_player_real": -1.0635658914728683,
+    "memory_avg_bet_player_real": 18233.333333333332,
+    "rtp_historical_player_real": 0.8272394881170019,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 109400,
+    "past_bet_sum": 89800
+  },
+  {
+    "round_id": 7,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "8": 98000,
+      "1": 826700,
+      "7": 170200
+    },
+    "total_bet_amount_player_real": 1094900,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -1094900,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -2.111575947418663,
+    "memory_profit_player_real": -1.025943755343945,
+    "memory_avg_bet_player_real": 1063257.142857143,
+    "rtp_historical_player_real": 0.6418283441715483,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 7442800,
+    "past_bet_sum": 6347900
+  },
+  {
+    "round_id": 7,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "8": 21200
+    },
+    "total_bet_amount_player_real": 21200,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -21200,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -2.4277028193725325,
+    "memory_profit_player_real": -1.1172595520421607,
+    "memory_avg_bet_player_real": 18657.14285714286,
+    "rtp_historical_player_real": 0.6929555895865237,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 130600,
+    "past_bet_sum": 109400
+  },
+  {
+    "round_id": 8,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "1": 367800,
+      "7": 78800,
+      "6": 119600,
+      "2": 347100
+    },
+    "total_bet_amount_player_real": 913300,
+    "total_payout_amount_player_real": 1970000,
+    "net_profit_player_real": 1056700,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.5383051990659165,
+    "memory_profit_player_real": 1.0259887371350895,
+    "memory_avg_bet_player_real": 1044512.5,
+    "rtp_historical_player_real": 0.8074340900659398,
+    "rtp_current_round_player_real": 2.157013029672616,
+    "recent_bet_sum": 8356100,
+    "past_bet_sum": 7442800
+  },
+  {
+    "round_id": 8,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 13800,
+      "8": 4900
+    },
+    "total_bet_amount_player_real": 18700,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -18700,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -2.8002721972772644,
+    "memory_profit_player_real": -1.0017857142857143,
+    "memory_avg_bet_player_real": 18662.5,
+    "rtp_historical_player_real": 0.6061620897521768,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 149300,
+    "past_bet_sum": 130600
+  },
+  {
+    "round_id": 9,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "5": 285200,
+      "1": 572500,
+      "6": 191200
+    },
+    "total_bet_amount_player_real": 1048900,
+    "total_payout_amount_player_real": 2852000,
+    "net_profit_player_real": 1803100,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 1.3260245363915446,
+    "memory_profit_player_real": 1.7248108361472752,
+    "memory_avg_bet_player_real": 1045000.0,
+    "rtp_historical_player_real": 1.0206273258904839,
+    "rtp_current_round_player_real": 2.719038993231004,
+    "recent_bet_sum": 9405000,
+    "past_bet_sum": 8356100
+  },
+  {
+    "round_id": 9,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 4300,
+      "3": 13200
+    },
+    "total_bet_amount_player_real": 17500,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -17500,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -3.0240314620536406,
+    "memory_profit_player_real": -0.9495387954422138,
+    "memory_avg_bet_player_real": 18533.333333333332,
+    "rtp_historical_player_real": 0.5425659472422062,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 166800,
+    "past_bet_sum": 149300
+  },
+  {
+    "round_id": 10,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "6": 128200,
+      "4": 371200,
+      "8": 42600,
+      "3": 374800,
+      "7": 76100
+    },
+    "total_bet_amount_player_real": 992900,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -992900,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 0.023507937292769898,
+    "memory_profit_player_real": -0.9588352003371142,
+    "memory_avg_bet_player_real": 1039790.0,
+    "rtp_historical_player_real": 0.923167177987863,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 10397900,
+    "past_bet_sum": 9405000
+  },
+  {
+    "round_id": 10,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 21700
+    },
+    "total_bet_amount_player_real": 21700,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -21700,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -3.3758427639974515,
+    "memory_profit_player_real": -1.1355851569933397,
+    "memory_avg_bet_player_real": 18850.0,
+    "rtp_historical_player_real": 0.48010610079575594,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 188500,
+    "past_bet_sum": 166800
+  },
+  {
+    "round_id": 11,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "2": 326500,
+      "4": 343500,
+      "5": 159800
+    },
+    "total_bet_amount_player_real": 829800,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -829800,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.7586406597638828,
+    "memory_profit_player_real": -0.8258428364088741,
+    "memory_avg_bet_player_real": 1020700.0,
+    "rtp_historical_player_real": 0.854939123774237,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 11227700,
+    "past_bet_sum": 10397900
+  },
+  {
+    "round_id": 11,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "7": 6700,
+      "5": 15100
+    },
+    "total_bet_amount_player_real": 21800,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -21800,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -3.5781991491218754,
+    "memory_profit_player_real": -1.1271003877638948,
+    "memory_avg_bet_player_real": 19118.18181818182,
+    "rtp_historical_player_real": 0.43033761293390393,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 210300,
+    "past_bet_sum": 188500
+  },
+  {
+    "round_id": 12,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "7": 127800,
+      "8": 72400,
+      "4": 634200
+    },
+    "total_bet_amount_player_real": 834400,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -834400,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -1.517764758064127,
+    "memory_profit_player_real": -0.841096421509712,
+    "memory_avg_bet_player_real": 1005175.0,
+    "rtp_historical_player_real": 0.7957984098954577,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 12062100,
+    "past_bet_sum": 11227700
+  },
+  {
+    "round_id": 12,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "1": 17400,
+      "7": 3000
+    },
+    "total_bet_amount_player_real": 20400,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -20400,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -3.9007428792778316,
+    "memory_profit_player_real": -1.0561529271206689,
+    "memory_avg_bet_player_real": 19225.0,
+    "rtp_historical_player_real": 0.39228435197225836,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 230700,
+    "past_bet_sum": 210300
+  },
+  {
+    "round_id": 13,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "6": 109900,
+      "1": 346100,
+      "5": 177100,
+      "2": 346500
+    },
+    "total_bet_amount_player_real": 979600,
+    "total_payout_amount_player_real": 1732500,
+    "net_profit_player_real": 752900,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.3210950241452119,
+    "memory_profit_player_real": 0.7517562565525309,
+    "memory_avg_bet_player_real": 1003207.6923076923,
+    "rtp_historical_player_real": 0.8688667888388784,
+    "rtp_current_round_player_real": 1.768579011841568,
+    "recent_bet_sum": 13041700,
+    "past_bet_sum": 12062100
+  },
+  {
+    "round_id": 13,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "8": 1400,
+      "2": 15900
+    },
+    "total_bet_amount_player_real": 17300,
+    "total_payout_amount_player_real": 79500,
+    "net_profit_player_real": 62200,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 0.4387557048057321,
+    "memory_profit_player_real": 3.282321899736148,
+    "memory_avg_bet_player_real": 19076.923076923078,
+    "rtp_historical_player_real": 0.6854838709677419,
+    "rtp_current_round_player_real": 4.595375722543353,
+    "recent_bet_sum": 248000,
+    "past_bet_sum": 230700
+  },
+  {
+    "round_id": 14,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "4": 427800,
+      "8": 43800,
+      "1": 423900
+    },
+    "total_bet_amount_player_real": 895500,
+    "total_payout_amount_player_real": 1971000,
+    "net_profit_player_real": 1075500,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 0.899673164900809,
+    "memory_profit_player_real": 1.0876307078279748,
+    "memory_avg_bet_player_real": 995514.2857142857,
+    "rtp_historical_player_real": 0.9544600063140373,
+    "rtp_current_round_player_real": 2.201005025125628,
+    "recent_bet_sum": 13937200,
+    "past_bet_sum": 13041700
+  },
+  {
+    "round_id": 14,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 22900
+    },
+    "total_bet_amount_player_real": 22900,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -22900,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -0.7936794279182602,
+    "memory_profit_player_real": -1.169162695711368,
+    "memory_avg_bet_player_real": 19350.0,
+    "rtp_historical_player_real": 0.6275378368401624,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 270900,
+    "past_bet_sum": 248000
+  },
+  {
+    "round_id": 15,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "5": 281000,
+      "3": 553100,
+      "6": 180900,
+      "7": 107500
+    },
+    "total_bet_amount_player_real": 1122500,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -1122500,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.4532954649272246,
+    "memory_profit_player_real": -1.1098614527072956,
+    "memory_avg_bet_player_real": 1003980.0,
+    "rtp_historical_player_real": 0.8833177287728176,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 15059700,
+    "past_bet_sum": 13937200
+  },
+  {
+    "round_id": 15,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "2": 18800
+    },
+    "total_bet_amount_player_real": 18800,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -18800,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -1.5145260403549443,
+    "memory_profit_player_real": -0.9750405186385738,
+    "memory_avg_bet_player_real": 19313.333333333332,
+    "rtp_historical_player_real": 0.5868139454608216,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 289700,
+    "past_bet_sum": 270900
+  },
+  {
+    "round_id": 16,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "8": 55300,
+      "5": 255100,
+      "3": 507100
+    },
+    "total_bet_amount_player_real": 817500,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -817500,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -1.1128672464881035,
+    "memory_profit_player_real": -0.832449819403763,
+    "memory_avg_bet_player_real": 992325.0,
+    "rtp_historical_player_real": 0.8378366462600458,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 15877200,
+    "past_bet_sum": 15059700
+  },
+  {
+    "round_id": 16,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "1": 10000,
+      "2": 10400
+    },
+    "total_bet_amount_player_real": 20400,
+    "total_payout_amount_player_real": 52000,
+    "net_profit_player_real": 31600,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 0.5563793776692338,
+    "memory_profit_player_real": 1.6254160363086234,
+    "memory_avg_bet_player_real": 19381.25,
+    "rtp_historical_player_real": 0.7158980973879394,
+    "rtp_current_round_player_real": 2.549019607843137,
+    "recent_bet_sum": 310100,
+    "past_bet_sum": 289700
+  },
+  {
+    "round_id": 17,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "2": 471800,
+      "5": 243700,
+      "8": 56000,
+      "6": 155100,
+      "7": 92500
+    },
+    "total_bet_amount_player_real": 1019100,
+    "total_payout_amount_player_real": 2359000,
+    "net_profit_player_real": 1339900,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 0.5728736666509664,
+    "memory_profit_player_real": 1.3462272681603538,
+    "memory_avg_bet_player_real": 993900.0,
+    "rtp_historical_player_real": 0.9269189112409225,
+    "rtp_current_round_player_real": 2.314787557648906,
+    "recent_bet_sum": 16896300,
+    "past_bet_sum": 15877200
+  },
+  {
+    "round_id": 17,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 5200,
+      "4": 18400
+    },
+    "total_bet_amount_player_real": 23600,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -23600,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -0.7211158182832118,
+    "memory_profit_player_real": -1.1889168765743072,
+    "memory_avg_bet_player_real": 19629.41176470588,
+    "rtp_historical_player_real": 0.665268204974528,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 333700,
+    "past_bet_sum": 310100
+  },
+  {
+    "round_id": 18,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "6": 108000,
+      "8": 34300,
+      "3": 325900,
+      "1": 337100
+    },
+    "total_bet_amount_player_real": 805300,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -805300,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": -0.4534422280291349,
+    "memory_profit_player_real": -0.8267565070325122,
+    "memory_avg_bet_player_real": 983422.2222222222,
+    "rtp_historical_player_real": 0.884750531025444,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 17701600,
+    "past_bet_sum": 16896300
+  },
+  {
+    "round_id": 18,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "5": 7500,
+      "2": 16100
+    },
+    "total_bet_amount_player_real": 23600,
+    "total_payout_amount_player_real": 75000,
+    "net_profit_player_real": 51400,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 2.079587776477837,
+    "memory_profit_player_real": 2.5639275400367554,
+    "memory_avg_bet_player_real": 19850.0,
+    "rtp_historical_player_real": 0.8312342569269522,
+    "rtp_current_round_player_real": 3.1779661016949152,
+    "recent_bet_sum": 357300,
+    "past_bet_sum": 333700
+  },
+  {
+    "round_id": 19,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "6": 188000,
+      "3": 557600,
+      "8": 61800,
+      "5": 275900,
+      "7": 108400
+    },
+    "total_bet_amount_player_real": 1191700,
+    "total_payout_amount_player_real": 2788000,
+    "net_profit_player_real": 1596300,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 1.1677528965749833,
+    "memory_profit_player_real": 1.589544436146378,
+    "memory_avg_bet_player_real": 994384.2105263158,
+    "rtp_historical_player_real": 0.9765101914435276,
+    "rtp_current_round_player_real": 2.339514978601997,
+    "recent_bet_sum": 18893300,
+    "past_bet_sum": 17701600
+  },
+  {
+    "round_id": 19,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "1": 16700
+    },
+    "total_bet_amount_player_real": 16700,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -16700,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": 0.7329954054142385,
+    "memory_profit_player_real": -0.8548758638341438,
+    "memory_avg_bet_player_real": 19684.21052631579,
+    "rtp_historical_player_real": 0.7941176470588235,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 374000,
+    "past_bet_sum": 357300
+  },
+  {
+    "round_id": 20,
+    "player_id": "player_1",
+    "bet_area_distribution_player_real": {
+      "2": 340700,
+      "7": 66500,
+      "6": 115600,
+      "8": 35300,
+      "4": 328400
+    },
+    "total_bet_amount_player_real": 886500,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -886500,
+    "recharge_amount_player_initial": 1000,
+    "attitude_value_player_real": 0.012015847422102738,
+    "memory_profit_player_real": -0.900814369287197,
+    "memory_avg_bet_player_real": 988990.0,
+    "rtp_historical_player_real": 0.9327445171336414,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 19779800,
+    "past_bet_sum": 18893300
+  },
+  {
+    "round_id": 20,
+    "player_id": "player_2",
+    "bet_area_distribution_player_real": {
+      "6": 20100
+    },
+    "total_bet_amount_player_real": 20100,
+    "total_payout_amount_player_real": 0,
+    "net_profit_player_real": -20100,
+    "recharge_amount_player_initial": 30,
+    "attitude_value_player_real": -0.41951910378128077,
+    "memory_profit_player_real": -1.0190729116368904,
+    "memory_avg_bet_player_real": 19705.0,
+    "rtp_historical_player_real": 0.7536158335447856,
+    "rtp_current_round_player_real": 0.0,
+    "recent_bet_sum": 394100,
+    "past_bet_sum": 374000
+  }
+]

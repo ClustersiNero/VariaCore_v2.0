@@ -1,0 +1,4748 @@
+[
+  {
+    "round_id": 1,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "5": 209600,
+        "6": 135900,
+        "8": 47600,
+        "7": 79800,
+        "3": 418400
+      },
+      "player_2": {
+        "5": 6900,
+        "3": 12700
+      }
+    },
+    "area_total_bets_platform": {
+      "5": 216500,
+      "6": 135900,
+      "8": 47600,
+      "7": 79800,
+      "3": 431100
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 910900,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 910900,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 910900.0,
+        "within_confidence": false,
+        "attitude_std": 1.0,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 910900.0,
+        "within_confidence": false,
+        "attitude_std": 1.0,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 1.4720505528491352,
+        "related_bet": 431100.0,
+        "expected_award": 2155500.0,
+        "profit_estimate": -1244600.0,
+        "within_confidence": false,
+        "attitude_std": 1.3813139136297898,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 910900.0,
+        "within_confidence": false,
+        "attitude_std": 1.0,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 1.486476254213529,
+        "related_bet": 216500.0,
+        "expected_award": 2165000.0,
+        "profit_estimate": -1254100.0,
+        "within_confidence": false,
+        "attitude_std": 1.399533091939816,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 1.378440762613867,
+        "related_bet": 135900.0,
+        "expected_award": 2038500.0,
+        "profit_estimate": -1127600.0,
+        "within_confidence": false,
+        "attitude_std": 1.2796574370680691,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 1.330393535387783,
+        "related_bet": 79800.0,
+        "expected_award": 1995000.0,
+        "profit_estimate": -1084100.0,
+        "within_confidence": false,
+        "attitude_std": 1.23201461402282,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 1.4928196811599308,
+        "related_bet": 47600.0,
+        "expected_award": 2142000.0,
+        "profit_estimate": -1231100.0,
+        "within_confidence": false,
+        "attitude_std": 1.393137793716421,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 1.4720505528491352,
+        "related_bet": 431100.0,
+        "expected_award": 2155500.0,
+        "profit_estimate": -1244600.0,
+        "within_confidence": false,
+        "attitude_std": 1.3813139136297898,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 8.298521541297832,
+        "related_bet": 479800.0,
+        "expected_award": 8340500.0,
+        "profit_estimate": -7429600.0,
+        "within_confidence": false,
+        "attitude_std": 8.170118332594836,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13383573.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.2959963984540054
+    ]
+  },
+  {
+    "round_id": 2,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "2": 734700,
+        "8": 82500,
+        "5": 361900
+      },
+      "player_2": {
+        "2": 18100
+      }
+    },
+    "area_total_bets_platform": {
+      "2": 752800,
+      "8": 82500,
+      "5": 361900
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 1197200,
+    "total_payout_amount_platform": 3764000,
+    "net_profit_platform": -2566800,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1197200.0,
+        "within_confidence": false,
+        "attitude_std": 1.8261262948535337,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.8893748581099127,
+        "related_bet": 752800.0,
+        "expected_award": 3764000.0,
+        "profit_estimate": -2566800.0,
+        "within_confidence": false,
+        "attitude_std": 1.630419753712135,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1197200.0,
+        "within_confidence": false,
+        "attitude_std": 1.8261262948535337,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1197200.0,
+        "within_confidence": false,
+        "attitude_std": 1.8261262948535337,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.8489298576322517,
+        "related_bet": 361900.0,
+        "expected_award": 3619000.0,
+        "profit_estimate": -2421800.0,
+        "within_confidence": false,
+        "attitude_std": 1.5180136485649878,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1197200.0,
+        "within_confidence": false,
+        "attitude_std": 1.8261262948535337,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.9,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1197200.0,
+        "within_confidence": false,
+        "attitude_std": 1.8261262948535337,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.893255053206298,
+        "related_bet": 82500.0,
+        "expected_award": 3712500.0,
+        "profit_estimate": -2515300.0,
+        "within_confidence": false,
+        "attitude_std": 1.6015581264200933,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.8893748581099127,
+        "related_bet": 752800.0,
+        "expected_award": 3764000.0,
+        "profit_estimate": -2566800.0,
+        "within_confidence": false,
+        "attitude_std": 1.630419753712135,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 2.620146399552131,
+        "related_bet": 444400.0,
+        "expected_award": 7331500.0,
+        "profit_estimate": -6134300.0,
+        "within_confidence": false,
+        "attitude_std": 4.875514968835055,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 10780857.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.2476639198953566
+    ]
+  },
+  {
+    "round_id": 3,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "7": 144500,
+        "6": 239500,
+        "3": 726600
+      },
+      "player_2": {
+        "6": 3400,
+        "4": 12900
+      }
+    },
+    "area_total_bets_platform": {
+      "7": 144500,
+      "6": 242900,
+      "3": 726600,
+      "4": 12900
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 1126900,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1126900,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.2718491649973449,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1126900.0,
+        "within_confidence": false,
+        "attitude_std": 0.268614707807431,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.2718491649973449,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1126900.0,
+        "within_confidence": false,
+        "attitude_std": 0.268614707807431,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 1.3888339752604266,
+        "related_bet": 726600.0,
+        "expected_award": 3633000.0,
+        "profit_estimate": -2506100.0,
+        "within_confidence": false,
+        "attitude_std": 3.4650794024415967,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.3586894310636628,
+        "related_bet": 12900.0,
+        "expected_award": 64500.0,
+        "profit_estimate": 1062400.0,
+        "within_confidence": false,
+        "attitude_std": 0.8748256560994185,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.2718491649973449,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1126900.0,
+        "within_confidence": false,
+        "attitude_std": 0.268614707807431,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 1.3904663004313964,
+        "related_bet": 242900.0,
+        "expected_award": 3643500.0,
+        "profit_estimate": -2516600.0,
+        "within_confidence": false,
+        "attitude_std": 3.497738952982217,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 1.3824602213822714,
+        "related_bet": 144500.0,
+        "expected_award": 3612500.0,
+        "profit_estimate": -2485600.0,
+        "within_confidence": false,
+        "attitude_std": 3.4462981539218975,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.2718491649973449,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1126900.0,
+        "within_confidence": false,
+        "attitude_std": 0.268614707807431,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 1.4084090138467233,
+        "related_bet": 739500.0,
+        "expected_award": 3697500.0,
+        "profit_estimate": -2570600.0,
+        "within_confidence": false,
+        "attitude_std": 3.563697704989064,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 2.508583354380916,
+        "related_bet": 387400.0,
+        "expected_award": 7256000.0,
+        "profit_estimate": -6129100.0,
+        "within_confidence": false,
+        "attitude_std": 6.777216677952751,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 11873950.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.21565862848643055
+    ]
+  },
+  {
+    "round_id": 4,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "7": 97500,
+        "8": 54100,
+        "5": 248400,
+        "6": 166200,
+        "3": 498700
+      },
+      "player_2": {
+        "5": 11400,
+        "6": 7000
+      }
+    },
+    "area_total_bets_platform": {
+      "7": 97500,
+      "8": 54100,
+      "5": 259800,
+      "6": 173200,
+      "3": 498700
+    },
+    "winning_areas_final_result": [
+      1
+    ],
+    "total_bet_amount_platform": 1083300,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1083300,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.05696843485566009,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1083300.0,
+        "within_confidence": true,
+        "attitude_std": 0.8987848498181247,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.05696843485566009,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1083300.0,
+        "within_confidence": true,
+        "attitude_std": 0.8987848498181247,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.5496805886034437,
+        "related_bet": 498700.0,
+        "expected_award": 2493500.0,
+        "profit_estimate": -1410200.0,
+        "within_confidence": false,
+        "attitude_std": 1.4143721527532431,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.05696843485566009,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1083300.0,
+        "within_confidence": true,
+        "attitude_std": 0.8987848498181247,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.5998085790948565,
+        "related_bet": 259800.0,
+        "expected_award": 2598000.0,
+        "profit_estimate": -1514700.0,
+        "within_confidence": false,
+        "attitude_std": 1.7703468060797656,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.5952352997045239,
+        "related_bet": 173200.0,
+        "expected_award": 2598000.0,
+        "profit_estimate": -1514700.0,
+        "within_confidence": false,
+        "attitude_std": 1.727062048768788,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.5366480333231354,
+        "related_bet": 97500.0,
+        "expected_award": 2437500.0,
+        "profit_estimate": -1354200.0,
+        "within_confidence": false,
+        "attitude_std": 1.3624232187353942,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.5359499234233538,
+        "related_bet": 54100.0,
+        "expected_award": 2434500.0,
+        "profit_estimate": -1351200.0,
+        "within_confidence": false,
+        "attitude_std": 1.3596402408578414,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.5496805886034437,
+        "related_bet": 498700.0,
+        "expected_award": 2493500.0,
+        "profit_estimate": -1410200.0,
+        "within_confidence": false,
+        "attitude_std": 1.4143721527532431,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 2.30736058466804,
+        "related_bet": 584600.0,
+        "expected_award": 10068000.0,
+        "profit_estimate": -8984700.0,
+        "within_confidence": false,
+        "attitude_std": 8.492230715645244,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 12924751.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1981669803401087
+    ]
+  },
+  {
+    "round_id": 5,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "2": 220700,
+        "3": 213600,
+        "1": 211600,
+        "7": 42100,
+        "4": 214400
+      },
+      "player_2": {
+        "4": 11700,
+        "5": 5700
+      }
+    },
+    "area_total_bets_platform": {
+      "2": 220700,
+      "3": 213600,
+      "1": 211600,
+      "7": 42100,
+      "4": 226100,
+      "5": 5700
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 919800,
+    "total_payout_amount_platform": 1103500,
+    "net_profit_platform": -183700,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.023570280586903757,
+        "related_bet": 211600.0,
+        "expected_award": 1058000.0,
+        "profit_estimate": -138200.0,
+        "within_confidence": true,
+        "attitude_std": 0.5388760178510408,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.031034253890195755,
+        "related_bet": 220700.0,
+        "expected_award": 1103500.0,
+        "profit_estimate": -183700.0,
+        "within_confidence": true,
+        "attitude_std": 0.49666944667427276,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.02513899677318583,
+        "related_bet": 213600.0,
+        "expected_award": 1068000.0,
+        "profit_estimate": -148200.0,
+        "within_confidence": true,
+        "attitude_std": 0.5295682759847822,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.10172432276471337,
+        "related_bet": 226100.0,
+        "expected_award": 1130500.0,
+        "profit_estimate": -210700.0,
+        "within_confidence": true,
+        "attitude_std": 0.6381001168384697,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.2088658694655635,
+        "related_bet": 5700.0,
+        "expected_award": 57000.0,
+        "profit_estimate": 862800.0,
+        "within_confidence": false,
+        "attitude_std": 1.5939810078887697,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.1853962756738915,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 919800.0,
+        "within_confidence": false,
+        "attitude_std": 1.556044060167956,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.02273088854977643,
+        "related_bet": 42100.0,
+        "expected_award": 1052500.0,
+        "profit_estimate": -132700.0,
+        "within_confidence": true,
+        "attitude_std": 0.5440021970560638,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.1853962756738915,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 919800.0,
+        "within_confidence": false,
+        "attitude_std": 1.556044060167956,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.6511011651679784,
+        "related_bet": 872000.0,
+        "expected_award": 4360000.0,
+        "profit_estimate": -3440200.0,
+        "within_confidence": false,
+        "attitude_std": 2.684754017598898,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.09884263092471077,
+        "related_bet": 47800.0,
+        "expected_award": 1109500.0,
+        "profit_estimate": -189700.0,
+        "within_confidence": true,
+        "attitude_std": 0.6445469158470507,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 12713457.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.182124190560344
+    ]
+  },
+  {
+    "round_id": 6,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "3": 450300,
+        "7": 85200,
+        "5": 216500,
+        "2": 447600
+      },
+      "player_2": {
+        "6": 19600
+      }
+    },
+    "area_total_bets_platform": {
+      "3": 450300,
+      "7": 85200,
+      "5": 216500,
+      "2": 447600,
+      "6": 19600
+    },
+    "winning_areas_final_result": [
+      1
+    ],
+    "total_bet_amount_platform": 1219200,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1219200,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.14651952524631354,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1219200.0,
+        "within_confidence": true,
+        "attitude_std": 1.4751718202181676,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.2035655516880598,
+        "related_bet": 447600.0,
+        "expected_award": 2238000.0,
+        "profit_estimate": -1018800.0,
+        "within_confidence": false,
+        "attitude_std": 0.6727862480137667,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.20567188723240307,
+        "related_bet": 450300.0,
+        "expected_award": 2251500.0,
+        "profit_estimate": -1032300.0,
+        "within_confidence": false,
+        "attitude_std": 0.683833929952795,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.14651952524631354,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1219200.0,
+        "within_confidence": true,
+        "attitude_std": 1.4751718202181676,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.19217659589507285,
+        "related_bet": 216500.0,
+        "expected_award": 2165000.0,
+        "profit_estimate": -945800.0,
+        "within_confidence": false,
+        "attitude_std": 0.6138983490363237,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.3704034688713407,
+        "related_bet": 19600.0,
+        "expected_award": 294000.0,
+        "profit_estimate": 925200.0,
+        "within_confidence": false,
+        "attitude_std": 2.818732284939316,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.1867167038150591,
+        "related_bet": 85200.0,
+        "expected_award": 2130000.0,
+        "profit_estimate": -910800.0,
+        "within_confidence": false,
+        "attitude_std": 0.5862591647917698,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.14651952524631354,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1219200.0,
+        "within_confidence": true,
+        "attitude_std": 1.4751718202181676,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.5550927743262064,
+        "related_bet": 897900.0,
+        "expected_award": 4489500.0,
+        "profit_estimate": -3270300.0,
+        "within_confidence": false,
+        "attitude_std": 2.6758757496804537,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.6253477437530006,
+        "related_bet": 321300.0,
+        "expected_award": 4589000.0,
+        "profit_estimate": -3369800.0,
+        "within_confidence": false,
+        "attitude_std": 3.4663890780102737,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13896081.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.18516277259241676
+    ]
+  },
+  {
+    "round_id": 7,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "8": 98000,
+        "1": 826700,
+        "7": 170200
+      },
+      "player_2": {
+        "8": 21200
+      }
+    },
+    "area_total_bets_platform": {
+      "8": 119200,
+      "1": 826700,
+      "7": 170200
+    },
+    "winning_areas_final_result": [
+      5
+    ],
+    "total_bet_amount_platform": 1116100,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1116100,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.2958755007685245,
+        "related_bet": 826700.0,
+        "expected_award": 4133500.0,
+        "profit_estimate": -3017400.0,
+        "within_confidence": false,
+        "attitude_std": 1.7845183446186628,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.25737606363866894,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1116100.0,
+        "within_confidence": false,
+        "attitude_std": 2.12144968091013,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.25737606363866894,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1116100.0,
+        "within_confidence": false,
+        "attitude_std": 2.12144968091013,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.25737606363866894,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1116100.0,
+        "within_confidence": false,
+        "attitude_std": 2.12144968091013,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.25737606363866894,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1116100.0,
+        "within_confidence": false,
+        "attitude_std": 2.12144968091013,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.25737606363866894,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1116100.0,
+        "within_confidence": false,
+        "attitude_std": 2.12144968091013,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.3119937077748963,
+        "related_bet": 170200.0,
+        "expected_award": 4255000.0,
+        "profit_estimate": -3138900.0,
+        "within_confidence": false,
+        "attitude_std": 1.8938098250521171,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.9892403982910637,
+        "related_bet": 119200.0,
+        "expected_award": 5364000.0,
+        "profit_estimate": -4247900.0,
+        "within_confidence": false,
+        "attitude_std": 8.405321008939783,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.2958755007685245,
+        "related_bet": 826700.0,
+        "expected_award": 4133500.0,
+        "profit_estimate": -3017400.0,
+        "within_confidence": false,
+        "attitude_std": 1.7845183446186628,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 1.294407114268279,
+        "related_bet": 289400.0,
+        "expected_award": 9619000.0,
+        "profit_estimate": -8502900.0,
+        "within_confidence": false,
+        "attitude_std": 10.085954793424118,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 14978698.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1752347541300488
+    ]
+  },
+  {
+    "round_id": 8,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "1": 367800,
+        "7": 78800,
+        "6": 119600,
+        "2": 347100
+      },
+      "player_2": {
+        "6": 13800,
+        "8": 4900
+      }
+    },
+    "area_total_bets_platform": {
+      "1": 367800,
+      "7": 78800,
+      "6": 133400,
+      "2": 347100,
+      "8": 4900
+    },
+    "winning_areas_final_result": [
+      7
+    ],
+    "total_bet_amount_platform": 932000,
+    "total_payout_amount_platform": 1970000,
+    "net_profit_platform": -1038000,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.11413362109993681,
+        "related_bet": 367800.0,
+        "expected_award": 1839000.0,
+        "profit_estimate": -907000.0,
+        "within_confidence": true,
+        "attitude_std": 0.8114072535848615,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.12574407023176093,
+        "related_bet": 347100.0,
+        "expected_award": 1735500.0,
+        "profit_estimate": -803500.0,
+        "within_confidence": true,
+        "attitude_std": 0.8933335435238146,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.3277477960867116,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 932000.0,
+        "within_confidence": false,
+        "attitude_std": 2.461922368581844,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.3277477960867116,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 932000.0,
+        "within_confidence": false,
+        "attitude_std": 2.461922368581844,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.3277477960867116,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 932000.0,
+        "within_confidence": false,
+        "attitude_std": 2.461922368581844,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.18341481163901785,
+        "related_bet": 133400.0,
+        "expected_award": 2001000.0,
+        "profit_estimate": -1069000.0,
+        "within_confidence": false,
+        "attitude_std": 1.5778142906564816,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.09966758468223068,
+        "related_bet": 78800.0,
+        "expected_award": 1970000.0,
+        "profit_estimate": -1038000.0,
+        "within_confidence": true,
+        "attitude_std": 0.7139512769992442,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.3612080988638213,
+        "related_bet": 4900.0,
+        "expected_award": 220500.0,
+        "profit_estimate": 711500.0,
+        "within_confidence": false,
+        "attitude_std": 2.8632684442022134,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.10598198938065091,
+        "related_bet": 714900.0,
+        "expected_award": 3574500.0,
+        "profit_estimate": -2642500.0,
+        "within_confidence": true,
+        "attitude_std": 1.1124859225966919,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.36131688518044036,
+        "related_bet": 217100.0,
+        "expected_award": 4191500.0,
+        "profit_estimate": -3259500.0,
+        "within_confidence": false,
+        "attitude_std": 3.6297944907354562,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13912738.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.16486927770038717
+    ]
+  },
+  {
+    "round_id": 9,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "5": 285200,
+        "1": 572500,
+        "6": 191200
+      },
+      "player_2": {
+        "6": 4300,
+        "3": 13200
+      }
+    },
+    "area_total_bets_platform": {
+      "5": 285200,
+      "1": 572500,
+      "6": 195500,
+      "3": 13200
+    },
+    "winning_areas_final_result": [
+      5
+    ],
+    "total_bet_amount_platform": 1066400,
+    "total_payout_amount_platform": 2852000,
+    "net_profit_platform": -1785600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.12957473827101343,
+        "related_bet": 572500.0,
+        "expected_award": 2862500.0,
+        "profit_estimate": -1796100.0,
+        "within_confidence": true,
+        "attitude_std": 1.4140152789272948,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.18706599344256664,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1066400.0,
+        "within_confidence": false,
+        "attitude_std": 1.4748212003525758,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.18108789687175003,
+        "related_bet": 13200.0,
+        "expected_award": 66000.0,
+        "profit_estimate": 1000400.0,
+        "within_confidence": false,
+        "attitude_std": 1.384840906155073,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.18706599344256664,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1066400.0,
+        "within_confidence": false,
+        "attitude_std": 1.4748212003525758,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.12854469426677634,
+        "related_bet": 285200.0,
+        "expected_award": 2852000.0,
+        "profit_estimate": -1785600.0,
+        "within_confidence": true,
+        "attitude_std": 1.4048059188126962,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.12131949332683496,
+        "related_bet": 195500.0,
+        "expected_award": 2932500.0,
+        "profit_estimate": -1866100.0,
+        "within_confidence": true,
+        "attitude_std": 1.3241426412958701,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.18706599344256664,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1066400.0,
+        "within_confidence": false,
+        "attitude_std": 1.4748212003525758,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.18706599344256664,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1066400.0,
+        "within_confidence": false,
+        "attitude_std": 1.4748212003525758,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.12078391154777536,
+        "related_bet": 585700.0,
+        "expected_award": 2928500.0,
+        "profit_estimate": -1862100.0,
+        "within_confidence": true,
+        "attitude_std": 1.319896197202957,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.42186484203406255,
+        "related_bet": 480700.0,
+        "expected_award": 5784500.0,
+        "profit_estimate": -4718100.0,
+        "within_confidence": false,
+        "attitude_std": 4.010617553570938,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 12095146.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1654180311537276
+    ]
+  },
+  {
+    "round_id": 10,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "6": 128200,
+        "4": 371200,
+        "8": 42600,
+        "3": 374800,
+        "7": 76100
+      },
+      "player_2": {
+        "6": 21700
+      }
+    },
+    "area_total_bets_platform": {
+      "6": 149900,
+      "4": 371200,
+      "8": 42600,
+      "3": 374800,
+      "7": 76100
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 1014600,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1014600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.060551871123282926,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1014600.0,
+        "within_confidence": true,
+        "attitude_std": 0.5766003934451875,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.060551871123282926,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1014600.0,
+        "within_confidence": true,
+        "attitude_std": 0.5766003934451875,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.20921908221938357,
+        "related_bet": 374800.0,
+        "expected_award": 1874000.0,
+        "profit_estimate": -859400.0,
+        "within_confidence": false,
+        "attitude_std": 1.8959750569426372,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.20756662039655166,
+        "related_bet": 371200.0,
+        "expected_award": 1856000.0,
+        "profit_estimate": -841400.0,
+        "within_confidence": false,
+        "attitude_std": 1.879664737283864,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.060551871123282926,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1014600.0,
+        "within_confidence": true,
+        "attitude_std": 0.5766003934451875,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.27009252461548217,
+        "related_bet": 149900.0,
+        "expected_award": 2248500.0,
+        "profit_estimate": -1233900.0,
+        "within_confidence": false,
+        "attitude_std": 2.97768061898772,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.21183753437297892,
+        "related_bet": 76100.0,
+        "expected_award": 1902500.0,
+        "profit_estimate": -887900.0,
+        "within_confidence": false,
+        "attitude_std": 1.9218288055820951,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.21317067040560678,
+        "related_bet": 42600.0,
+        "expected_award": 1917000.0,
+        "profit_estimate": -902400.0,
+        "within_confidence": false,
+        "attitude_std": 1.9349957555113997,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.3826030947870381,
+        "related_bet": 746000.0,
+        "expected_award": 3730000.0,
+        "profit_estimate": -2715400.0,
+        "within_confidence": false,
+        "attitude_std": 3.6185086036054304,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.5963636383734757,
+        "related_bet": 268600.0,
+        "expected_award": 6068000.0,
+        "profit_estimate": -5053400.0,
+        "within_confidence": false,
+        "attitude_std": 5.96184041355393,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13079308.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.16065803040260673
+    ]
+  },
+  {
+    "round_id": 11,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "2": 326500,
+        "4": 343500,
+        "5": 159800
+      },
+      "player_2": {
+        "7": 6700,
+        "5": 15100
+      }
+    },
+    "area_total_bets_platform": {
+      "2": 326500,
+      "4": 343500,
+      "5": 174900,
+      "7": 6700
+    },
+    "winning_areas_final_result": [
+      3
+    ],
+    "total_bet_amount_platform": 851600,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 851600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.07777404777546645,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 851600.0,
+        "within_confidence": true,
+        "attitude_std": 0.9652410158151783,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.11806078675144556,
+        "related_bet": 326500.0,
+        "expected_award": 1632500.0,
+        "profit_estimate": -780900.0,
+        "within_confidence": true,
+        "attitude_std": 1.0493594336037189,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.07777404777546645,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 851600.0,
+        "within_confidence": true,
+        "attitude_std": 0.9652410158151783,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.12444240879875157,
+        "related_bet": 343500.0,
+        "expected_award": 1717500.0,
+        "profit_estimate": -865900.0,
+        "within_confidence": true,
+        "attitude_std": 1.1181975046957198,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.10208216935686536,
+        "related_bet": 174900.0,
+        "expected_award": 1749000.0,
+        "profit_estimate": -897400.0,
+        "within_confidence": true,
+        "attitude_std": 1.0920129032072223,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.07777404777546645,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 851600.0,
+        "within_confidence": true,
+        "attitude_std": 0.9652410158151783,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.06290451004031537,
+        "related_bet": 6700.0,
+        "expected_award": 167500.0,
+        "profit_estimate": 684100.0,
+        "within_confidence": true,
+        "attitude_std": 1.14497426057134,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.07777404777546645,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 851600.0,
+        "within_confidence": true,
+        "attitude_std": 0.9652410158151783,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.25892280793058653,
+        "related_bet": 670000.0,
+        "expected_award": 3350000.0,
+        "profit_estimate": -2498400.0,
+        "within_confidence": false,
+        "attitude_std": 2.610045385994792,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.1713435463301553,
+        "related_bet": 181600.0,
+        "expected_award": 1916500.0,
+        "profit_estimate": -1064900.0,
+        "within_confidence": false,
+        "attitude_std": 2.347371178417698,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13905360.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1534242510867968
+    ]
+  },
+  {
+    "round_id": 12,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "7": 127800,
+        "8": 72400,
+        "4": 634200
+      },
+      "player_2": {
+        "1": 17400,
+        "7": 3000
+      }
+    },
+    "area_total_bets_platform": {
+      "7": 130800,
+      "8": 72400,
+      "4": 634200,
+      "1": 17400
+    },
+    "winning_areas_final_result": [
+      6
+    ],
+    "total_bet_amount_platform": 854800,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 854800,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.10475833799342762,
+        "related_bet": 17400.0,
+        "expected_award": 87000.0,
+        "profit_estimate": 767800.0,
+        "within_confidence": true,
+        "attitude_std": 1.4990398252273158,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.12446640975262606,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 854800.0,
+        "within_confidence": true,
+        "attitude_std": 1.6369767632516308,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.12446640975262606,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 854800.0,
+        "within_confidence": true,
+        "attitude_std": 1.6369767632516308,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.17189230803462646,
+        "related_bet": 634200.0,
+        "expected_award": 3171000.0,
+        "profit_estimate": -2316200.0,
+        "within_confidence": false,
+        "attitude_std": 1.782997763536294,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.12446640975262606,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 854800.0,
+        "within_confidence": true,
+        "attitude_std": 1.6369767632516308,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.12446640975262606,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 854800.0,
+        "within_confidence": true,
+        "attitude_std": 1.6369767632516308,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.16111693045250045,
+        "related_bet": 130800.0,
+        "expected_award": 3270000.0,
+        "profit_estimate": -2415200.0,
+        "within_confidence": false,
+        "attitude_std": 1.6778968322676635,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.17844937872968436,
+        "related_bet": 72400.0,
+        "expected_award": 3258000.0,
+        "profit_estimate": -2403200.0,
+        "within_confidence": false,
+        "attitude_std": 1.863439659576191,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.15820678804623878,
+        "related_bet": 651600.0,
+        "expected_award": 3258000.0,
+        "profit_estimate": -2403200.0,
+        "within_confidence": false,
+        "attitude_std": 1.657259333649137,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.42745121838350436,
+        "related_bet": 203200.0,
+        "expected_award": 6528000.0,
+        "profit_estimate": -5673200.0,
+        "within_confidence": false,
+        "attitude_std": 4.913861072138452,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 14734516.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.15165505193799417
+    ]
+  },
+  {
+    "round_id": 13,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "6": 109900,
+        "1": 346100,
+        "5": 177100,
+        "2": 346500
+      },
+      "player_2": {
+        "8": 1400,
+        "2": 15900
+      }
+    },
+    "area_total_bets_platform": {
+      "6": 109900,
+      "1": 346100,
+      "5": 177100,
+      "2": 362400,
+      "8": 1400
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 996900,
+    "total_payout_amount_platform": 1812000,
+    "net_profit_platform": -815100,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.07939431643160683,
+        "related_bet": 346100.0,
+        "expected_award": 1730500.0,
+        "profit_estimate": -733600.0,
+        "within_confidence": true,
+        "attitude_std": 0.7157900528341127,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.0425431386145849,
+        "related_bet": 362400.0,
+        "expected_award": 1812000.0,
+        "profit_estimate": -815100.0,
+        "within_confidence": true,
+        "attitude_std": 0.3251246386631236,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.1781273300568844,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 996900.0,
+        "within_confidence": false,
+        "attitude_std": 2.1201271913582067,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.1781273300568844,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 996900.0,
+        "within_confidence": false,
+        "attitude_std": 2.1201271913582067,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.07824468836606499,
+        "related_bet": 177100.0,
+        "expected_award": 1771000.0,
+        "profit_estimate": -774100.0,
+        "within_confidence": true,
+        "attitude_std": 0.6989802816615144,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.08202646486940746,
+        "related_bet": 109900.0,
+        "expected_award": 1648500.0,
+        "profit_estimate": -651600.0,
+        "within_confidence": true,
+        "attitude_std": 0.75513532526304,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.1781273300568844,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 996900.0,
+        "within_confidence": false,
+        "attitude_std": 2.1201271913582067,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.16691457442919513,
+        "related_bet": 1400.0,
+        "expected_award": 63000.0,
+        "profit_estimate": 933900.0,
+        "within_confidence": false,
+        "attitude_std": 2.0222182029174105,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.10478547720509646,
+        "related_bet": 708500.0,
+        "expected_award": 3542500.0,
+        "profit_estimate": -2545600.0,
+        "within_confidence": true,
+        "attitude_std": 1.3881587701899856,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.1046009384955255,
+        "related_bet": 288400.0,
+        "expected_award": 3482500.0,
+        "profit_estimate": -2485600.0,
+        "within_confidence": true,
+        "attitude_std": 1.3453622675266608,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13889509.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.15367777921368458
+    ]
+  },
+  {
+    "round_id": 14,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "4": 427800,
+        "8": 43800,
+        "1": 423900
+      },
+      "player_2": {
+        "6": 22900
+      }
+    },
+    "area_total_bets_platform": {
+      "4": 427800,
+      "8": 43800,
+      "1": 423900,
+      "6": 22900
+    },
+    "winning_areas_final_result": [
+      8
+    ],
+    "total_bet_amount_platform": 918400,
+    "total_payout_amount_platform": 1971000,
+    "net_profit_platform": -1052600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.0746628066391647,
+        "related_bet": 423900.0,
+        "expected_award": 2119500.0,
+        "profit_estimate": -1201100.0,
+        "within_confidence": true,
+        "attitude_std": 1.0432766149211274,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.09398559898810602,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 918400.0,
+        "within_confidence": true,
+        "attitude_std": 1.0859951032420405,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.09398559898810602,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 918400.0,
+        "within_confidence": true,
+        "attitude_std": 1.0859951032420405,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.07586296730928421,
+        "related_bet": 427800.0,
+        "expected_award": 2139000.0,
+        "profit_estimate": -1220600.0,
+        "within_confidence": true,
+        "attitude_std": 1.0625457817578994,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.09398559898810602,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 918400.0,
+        "within_confidence": true,
+        "attitude_std": 1.0859951032420405,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.16221749710408348,
+        "related_bet": 22900.0,
+        "expected_award": 343500.0,
+        "profit_estimate": 574900.0,
+        "within_confidence": false,
+        "attitude_std": 3.053960518610139,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.09398559898810602,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 918400.0,
+        "within_confidence": true,
+        "attitude_std": 1.0859951032420405,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.06576293086277132,
+        "related_bet": 43800.0,
+        "expected_award": 1971000.0,
+        "profit_estimate": -1052600.0,
+        "within_confidence": true,
+        "attitude_std": 0.896763119175979,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.21973982421680105,
+        "related_bet": 851700.0,
+        "expected_award": 4258500.0,
+        "profit_estimate": -3340100.0,
+        "within_confidence": false,
+        "attitude_std": 3.1687339217445087,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.14766850248181534,
+        "related_bet": 66700.0,
+        "expected_award": 2314500.0,
+        "profit_estimate": -1396100.0,
+        "within_confidence": true,
+        "attitude_std": 2.991901331407513,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 12809357.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.14979533956752014
+    ]
+  },
+  {
+    "round_id": 15,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "5": 281000,
+        "3": 553100,
+        "6": 180900,
+        "7": 107500
+      },
+      "player_2": {
+        "2": 18800
+      }
+    },
+    "area_total_bets_platform": {
+      "5": 281000,
+      "3": 553100,
+      "6": 180900,
+      "7": 107500,
+      "2": 18800
+    },
+    "winning_areas_final_result": [
+      1
+    ],
+    "total_bet_amount_platform": 1141300,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 1141300,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.04608993636796383,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1141300.0,
+        "within_confidence": true,
+        "attitude_std": 0.516044000091158,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.016596696273786286,
+        "related_bet": 18800.0,
+        "expected_award": 94000.0,
+        "profit_estimate": 1047300.0,
+        "within_confidence": true,
+        "attitude_std": 0.7269441193968467,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.17087609644090185,
+        "related_bet": 553100.0,
+        "expected_award": 2765500.0,
+        "profit_estimate": -1624200.0,
+        "within_confidence": false,
+        "attitude_std": 2.262415637728451,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.04608993636796383,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1141300.0,
+        "within_confidence": true,
+        "attitude_std": 0.516044000091158,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.1737102443728655,
+        "related_bet": 281000.0,
+        "expected_award": 2810000.0,
+        "profit_estimate": -1668700.0,
+        "within_confidence": false,
+        "attitude_std": 2.3054905592145984,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.16756832295984855,
+        "related_bet": 180900.0,
+        "expected_award": 2713500.0,
+        "profit_estimate": -1572200.0,
+        "within_confidence": false,
+        "attitude_std": 2.212094686868921,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.1659161455865402,
+        "related_bet": 107500.0,
+        "expected_award": 2687500.0,
+        "profit_estimate": -1546200.0,
+        "within_confidence": false,
+        "attitude_std": 2.1869400862166346,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.04608993636796383,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1141300.0,
+        "within_confidence": true,
+        "attitude_std": 0.516044000091158,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.16537777489034536,
+        "related_bet": 571900.0,
+        "expected_award": 2859500.0,
+        "profit_estimate": -1718200.0,
+        "within_confidence": false,
+        "attitude_std": 2.3196273106975194,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.5253011649589618,
+        "related_bet": 569400.0,
+        "expected_award": 8211000.0,
+        "profit_estimate": -7069700.0,
+        "within_confidence": false,
+        "attitude_std": 7.557221258296961,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13916418.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1534349033105019
+    ]
+  },
+  {
+    "round_id": 16,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "8": 55300,
+        "5": 255100,
+        "3": 507100
+      },
+      "player_2": {
+        "1": 10000,
+        "2": 10400
+      }
+    },
+    "area_total_bets_platform": {
+      "8": 55300,
+      "5": 255100,
+      "3": 507100,
+      "1": 10000,
+      "2": 10400
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 837900,
+    "total_payout_amount_platform": 52000,
+    "net_profit_platform": 785900,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.06697642913364436,
+        "related_bet": 10000.0,
+        "expected_award": 50000.0,
+        "profit_estimate": 787900.0,
+        "within_confidence": true,
+        "attitude_std": 1.0992687376756576,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.06662996527174153,
+        "related_bet": 10400.0,
+        "expected_award": 52000.0,
+        "profit_estimate": 785900.0,
+        "within_confidence": true,
+        "attitude_std": 1.1006442282356406,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.10817056923613412,
+        "related_bet": 507100.0,
+        "expected_award": 2535500.0,
+        "profit_estimate": -1697600.0,
+        "within_confidence": true,
+        "attitude_std": 1.4919148127905844,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.0784923427463055,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 837900.0,
+        "within_confidence": true,
+        "attitude_std": 1.1546009508240394,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.10903479609542292,
+        "related_bet": 255100.0,
+        "expected_award": 2551000.0,
+        "profit_estimate": -1713100.0,
+        "within_confidence": true,
+        "attitude_std": 1.5070079030892582,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.0784923427463055,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 837900.0,
+        "within_confidence": true,
+        "attitude_std": 1.1546009508240394,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.0784923427463055,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 837900.0,
+        "within_confidence": true,
+        "attitude_std": 1.1546009508240394,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.10556089315825938,
+        "related_bet": 55300.0,
+        "expected_award": 2488500.0,
+        "profit_estimate": -1650600.0,
+        "within_confidence": true,
+        "attitude_std": 1.4462081043990243,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.0966441560181396,
+        "related_bet": 527500.0,
+        "expected_award": 2637500.0,
+        "profit_estimate": -1799600.0,
+        "within_confidence": true,
+        "attitude_std": 1.5427682081281993,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.2574314700071658,
+        "related_bet": 310400.0,
+        "expected_award": 5039500.0,
+        "profit_estimate": -4201600.0,
+        "within_confidence": false,
+        "attitude_std": 3.9763019473444365,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 14677181.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.14456674530171804
+    ]
+  },
+  {
+    "round_id": 17,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "2": 471800,
+        "5": 243700,
+        "8": 56000,
+        "6": 155100,
+        "7": 92500
+      },
+      "player_2": {
+        "6": 5200,
+        "4": 18400
+      }
+    },
+    "area_total_bets_platform": {
+      "2": 471800,
+      "5": 243700,
+      "8": 56000,
+      "6": 160300,
+      "7": 92500,
+      "4": 18400
+    },
+    "winning_areas_final_result": [
+      2
+    ],
+    "total_bet_amount_platform": 1042700,
+    "total_payout_amount_platform": 2359000,
+    "net_profit_platform": -1316300,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.11628353419229251,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1042700.0,
+        "within_confidence": true,
+        "attitude_std": 1.7751699709556155,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.04216298551911064,
+        "related_bet": 471800.0,
+        "expected_award": 2359000.0,
+        "profit_estimate": -1316300.0,
+        "within_confidence": true,
+        "attitude_std": 0.5777294682537895,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.11628353419229251,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1042700.0,
+        "within_confidence": true,
+        "attitude_std": 1.7751699709556155,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.11174630878532248,
+        "related_bet": 18400.0,
+        "expected_award": 92000.0,
+        "profit_estimate": 950700.0,
+        "within_confidence": true,
+        "attitude_std": 1.8926694373118649,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.04519224357525719,
+        "related_bet": 243700.0,
+        "expected_award": 2437000.0,
+        "profit_estimate": -1394300.0,
+        "within_confidence": true,
+        "attitude_std": 0.6533828182571931,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.02475256448194986,
+        "related_bet": 160300.0,
+        "expected_award": 2404500.0,
+        "profit_estimate": -1361800.0,
+        "within_confidence": true,
+        "attitude_std": 0.7636423671881558,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.04049503811104494,
+        "related_bet": 92500.0,
+        "expected_award": 2312500.0,
+        "profit_estimate": -1269800.0,
+        "within_confidence": true,
+        "attitude_std": 0.5328421335446405,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.04868084685766568,
+        "related_bet": 56000.0,
+        "expected_award": 2520000.0,
+        "profit_estimate": -1477300.0,
+        "within_confidence": true,
+        "attitude_std": 0.7342437271641907,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.02725976065154112,
+        "related_bet": 490200.0,
+        "expected_award": 2451000.0,
+        "profit_estimate": -1408300.0,
+        "within_confidence": true,
+        "attitude_std": 0.8744944320238163,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.450807624543855,
+        "related_bet": 552500.0,
+        "expected_award": 9674000.0,
+        "profit_estimate": -8631300.0,
+        "within_confidence": false,
+        "attitude_std": 7.7483413980785585,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13329600.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.14820370794600315
+    ]
+  },
+  {
+    "round_id": 18,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "6": 108000,
+        "8": 34300,
+        "3": 325900,
+        "1": 337100
+      },
+      "player_2": {
+        "5": 7500,
+        "2": 16100
+      }
+    },
+    "area_total_bets_platform": {
+      "6": 108000,
+      "8": 34300,
+      "3": 325900,
+      "1": 337100,
+      "5": 7500,
+      "2": 16100
+    },
+    "winning_areas_final_result": [
+      5
+    ],
+    "total_bet_amount_platform": 828900,
+    "total_payout_amount_platform": 75000,
+    "net_profit_platform": 753900,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.08834502493812207,
+        "related_bet": 337100.0,
+        "expected_award": 1685500.0,
+        "profit_estimate": -856600.0,
+        "within_confidence": true,
+        "attitude_std": 1.2897903340067085,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.016861379123841825,
+        "related_bet": 16100.0,
+        "expected_award": 80500.0,
+        "profit_estimate": 748400.0,
+        "within_confidence": true,
+        "attitude_std": 0.600841301231546,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.08554939075071119,
+        "related_bet": 325900.0,
+        "expected_award": 1629500.0,
+        "profit_estimate": -800600.0,
+        "within_confidence": true,
+        "attitude_std": 1.2345905845865282,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.04200530694831327,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 828900.0,
+        "within_confidence": true,
+        "attitude_std": 0.5291800478682469,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.017930544009589704,
+        "related_bet": 7500.0,
+        "expected_award": 75000.0,
+        "profit_estimate": 753900.0,
+        "within_confidence": true,
+        "attitude_std": 0.5705987434115347,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.08507745724658608,
+        "related_bet": 108000.0,
+        "expected_award": 1620000.0,
+        "profit_estimate": -791100.0,
+        "within_confidence": true,
+        "attitude_std": 1.225239463367083,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.04200530694831327,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 828900.0,
+        "within_confidence": true,
+        "attitude_std": 0.5291800478682469,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.08130387380344598,
+        "related_bet": 34300.0,
+        "expected_award": 1543500.0,
+        "profit_estimate": -714600.0,
+        "within_confidence": true,
+        "attitude_std": 1.1500939247204731,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.17047687275512827,
+        "related_bet": 679100.0,
+        "expected_award": 3395500.0,
+        "profit_estimate": -2566600.0,
+        "within_confidence": false,
+        "attitude_std": 2.934237226501275,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.16212682430758474,
+        "related_bet": 149800.0,
+        "expected_award": 3238500.0,
+        "profit_estimate": -2409600.0,
+        "within_confidence": false,
+        "attitude_std": 2.7761313719299126,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 14058633.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.14193358665520334
+    ]
+  },
+  {
+    "round_id": 19,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "6": 188000,
+        "3": 557600,
+        "8": 61800,
+        "5": 275900,
+        "7": 108400
+      },
+      "player_2": {
+        "1": 16700
+      }
+    },
+    "area_total_bets_platform": {
+      "6": 188000,
+      "3": 557600,
+      "8": 61800,
+      "5": 275900,
+      "7": 108400,
+      "1": 16700
+    },
+    "winning_areas_final_result": [
+      3
+    ],
+    "total_bet_amount_platform": 1208400,
+    "total_payout_amount_platform": 2788000,
+    "net_profit_platform": -1579600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.07223783367538442,
+        "related_bet": 16700.0,
+        "expected_award": 83500.0,
+        "profit_estimate": 1124900.0,
+        "within_confidence": true,
+        "attitude_std": 1.8005715967469758,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.07189212665245427,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1208400.0,
+        "within_confidence": true,
+        "attitude_std": 1.589780541800677,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.07718678585359995,
+        "related_bet": 557600.0,
+        "expected_award": 2788000.0,
+        "profit_estimate": -1579600.0,
+        "within_confidence": true,
+        "attitude_std": 1.157401380977807,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.07189212665245427,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 1208400.0,
+        "within_confidence": true,
+        "attitude_std": 1.589780541800677,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.0756953960156597,
+        "related_bet": 275900.0,
+        "expected_award": 2759000.0,
+        "profit_estimate": -1550600.0,
+        "within_confidence": true,
+        "attitude_std": 1.1291186343298634,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.0788337241744569,
+        "related_bet": 188000.0,
+        "expected_award": 2820000.0,
+        "profit_estimate": -1611600.0,
+        "within_confidence": true,
+        "attitude_std": 1.1886193946783257,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.07317813351875353,
+        "related_bet": 108400.0,
+        "expected_award": 2710000.0,
+        "profit_estimate": -1501600.0,
+        "within_confidence": true,
+        "attitude_std": 1.0813509175095233,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.07682669265281711,
+        "related_bet": 61800.0,
+        "expected_award": 2781000.0,
+        "profit_estimate": -1572600.0,
+        "within_confidence": true,
+        "attitude_std": 1.1505737396273694,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.07750888110345468,
+        "related_bet": 574300.0,
+        "expected_award": 2871500.0,
+        "profit_estimate": -1663100.0,
+        "within_confidence": true,
+        "attitude_std": 1.433259871974805,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.5100584597522103,
+        "related_bet": 634100.0,
+        "expected_award": 11070000.0,
+        "profit_estimate": -9861600.0,
+        "within_confidence": false,
+        "attitude_std": 9.277426292463387,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 12442781.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.1490281500099088
+    ]
+  },
+  {
+    "round_id": 20,
+    "all_player_bets_map_platform": {
+      "player_1": {
+        "2": 340700,
+        "7": 66500,
+        "6": 115600,
+        "8": 35300,
+        "4": 328400
+      },
+      "player_2": {
+        "6": 20100
+      }
+    },
+    "area_total_bets_platform": {
+      "2": 340700,
+      "7": 66500,
+      "6": 135700,
+      "8": 35300,
+      "4": 328400
+    },
+    "winning_areas_final_result": [
+      1
+    ],
+    "total_bet_amount_platform": 906600,
+    "total_payout_amount_platform": 0,
+    "net_profit_platform": 906600,
+    "structure_results_simulation_output": [
+      {
+        "areas": [
+          1
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          1
+        ],
+        "rtp_std": 0.03833879381571156,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 906600.0,
+        "within_confidence": true,
+        "attitude_std": 0.07256914307470372,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": true,
+        "is_final_outcome": true
+      },
+      {
+        "areas": [
+          2
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          2
+        ],
+        "rtp_std": 0.11946598238931222,
+        "related_bet": 340700.0,
+        "expected_award": 1703500.0,
+        "profit_estimate": -796900.0,
+        "within_confidence": true,
+        "attitude_std": 1.718942679711647,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          3
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          3
+        ],
+        "rtp_std": 0.03833879381571156,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 906600.0,
+        "within_confidence": true,
+        "attitude_std": 0.07256914307470372,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          4
+        ],
+        "base_weight": 1930,
+        "game_areas": [
+          4
+        ],
+        "rtp_std": 0.1164339487928933,
+        "related_bet": 328400.0,
+        "expected_award": 1642000.0,
+        "profit_estimate": -735400.0,
+        "within_confidence": true,
+        "attitude_std": 1.657421874231359,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5
+        ],
+        "base_weight": 965,
+        "game_areas": [
+          5
+        ],
+        "rtp_std": 0.03833879381571156,
+        "related_bet": 0.0,
+        "expected_award": 0.0,
+        "profit_estimate": 906600.0,
+        "within_confidence": true,
+        "attitude_std": 0.07256914307470372,
+        "entered_phase1": true,
+        "entered_phase2": true,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          6
+        ],
+        "base_weight": 640,
+        "game_areas": [
+          6
+        ],
+        "rtp_std": 0.1472817461235995,
+        "related_bet": 135700.0,
+        "expected_award": 2035500.0,
+        "profit_estimate": -1128900.0,
+        "within_confidence": false,
+        "attitude_std": 3.0810381358354224,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          7
+        ],
+        "base_weight": 390,
+        "game_areas": [
+          7
+        ],
+        "rtp_std": 0.11744435679344856,
+        "related_bet": 66500.0,
+        "expected_award": 1662500.0,
+        "profit_estimate": -755900.0,
+        "within_confidence": true,
+        "attitude_std": 1.6779283576359338,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          8
+        ],
+        "base_weight": 215,
+        "game_areas": [
+          8
+        ],
+        "rtp_std": 0.11379836480616863,
+        "related_bet": 35300.0,
+        "expected_award": 1588500.0,
+        "profit_estimate": -681900.0,
+        "within_confidence": true,
+        "attitude_std": 1.6039072346449175,
+        "entered_phase1": true,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "base_weight": 60,
+        "game_areas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rtp_std": 0.20094440674731104,
+        "related_bet": 669100.0,
+        "expected_award": 3345500.0,
+        "profit_estimate": -2438900.0,
+        "within_confidence": false,
+        "attitude_std": 3.362248535151459,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      },
+      {
+        "areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "base_weight": 10,
+        "game_areas": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "rtp_std": 0.2949339421912261,
+        "related_bet": 237500.0,
+        "expected_award": 5286500.0,
+        "profit_estimate": -4379900.0,
+        "within_confidence": false,
+        "attitude_std": 5.609592016505291,
+        "entered_phase1": false,
+        "entered_phase2": false,
+        "entered_phase3": false,
+        "is_final_outcome": false
+      }
+    ],
+    "pool_value_platform": 13322183.0,
+    "target_rtp_platform_dynamic": 0.9,
+    "rtp_confidence_bounds_active": [
+      0.0,
+      0.14154238723458448
+    ]
+  }
+]
