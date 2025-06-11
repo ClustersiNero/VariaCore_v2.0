@@ -1,12 +1,8 @@
-# ✅ 核心框架
-streamlit
-pandas
-numpy
-scipy
-altair
-
-# ✅ 模型与分布函数
-scikit-learn
-
-# ✅ 可选（如用到 JSON 操作、大数支持）
-openpyxl  # 用于处理 Excel 文件读取
+xlsxwriter>=3.1.2
+pandas>=1.5.3
+numpy>=1.21.6
+scipy>=1.9.3
+openpyxl>=3.1.2
+streamlit>=1.20.0
+altair>=5.0.0
+scikit-learn>=1.2.2
