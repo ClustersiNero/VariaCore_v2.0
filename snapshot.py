@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from dashboard.data_loader import load_logs_by_round
+from data_loader import load_logs_by_round
 
 # ✅ 页面基本配置
 st.set_page_config(layout="wide", page_title="🎯 控奖结构快照仪表盘")
